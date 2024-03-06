@@ -21,6 +21,7 @@
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
       "rules": {
+        "global-require": 0,
         "no-alert": 1,
         "no-console": 0,
         "no-shadow": 0,

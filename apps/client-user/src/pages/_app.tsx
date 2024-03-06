@@ -1,8 +1,11 @@
-import { AppProps } from "next/app";
+import type { AppProps } from "next/app";
 import Head from "next/head";
 import "./styles.css";
 
-function CustomApp({ Component, pageProps }: AppProps) {
+// Global styles for tailwindcss
+// import "../../public/shared/styles/globals.css";
+
+const CustomApp = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <Head>
@@ -13,6 +16,6 @@ function CustomApp({ Component, pageProps }: AppProps) {
       </main>
     </>
   );
-}
+};
 
 export default CustomApp;

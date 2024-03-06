@@ -1,5 +1,5 @@
 import { Args, Mutation, Query, Resolver } from "@nestjs/graphql";
-import { UserInfo, UserInput } from "@split/model";
+import { UserInfo, UserInput } from "@bv/model";
 import { UserService } from "./user.service";
 
 @Resolver(() => UserInfo)
